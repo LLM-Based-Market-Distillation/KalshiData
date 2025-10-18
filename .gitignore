@@ -1,0 +1,18 @@
+# secrets
+*.pem
+.env
+
+# local outputs / large data
+/data_local/
+/out/
+/*.json
+*.parquet
+*.csv
+
+# noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
